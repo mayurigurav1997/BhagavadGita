@@ -54,58 +54,64 @@ function showGita(data){
     //changethe background Image
     let Background_Image = document.getElementById("chapter_details");
     console.log(Background_Image);
-    if(input.value == 1){
-        Background_Image.style.backgroundImage = "url('Images/chapter1.jpg')";
-    }
-    else if(input.value == 2){
-        Background_Image.style.backgroundImage = "url('Images/chapter2.jpg')";
-    }
-    else if(input.value == 3){
-        Background_Image.style.backgroundImage = "url('Images/chapter3.jpg')";
-    }
-    else if(input.value == 4){
-        Background_Image.style.backgroundImage = "url('Images/chapter4.jpg')";
-    }
-    else if(input.value == 5){
-        Background_Image.style.backgroundImage = "url('Images/chapter5.jpg')";
-    }
-    else if(input.value == 6){
-        Background_Image.style.backgroundImage = "url('Images/chapter6.jpg')";
-    }
-    else if(input.value == 7){
-        Background_Image.style.backgroundImage = "url('Images/chapter7.jpg')";
-    }
-    else if(input.value == 8){
-        Background_Image.style.backgroundImage = "url('Images/chapter8.jpg')";
-    }
-    else if(input.value == 9){
-        Background_Image.style.backgroundImage = "url('Images/chapter9.jpg')";
-    }
-    else if(input.value == 10){
-        Background_Image.style.backgroundImage = "url('Images/chapter10.jpg')";
-    }
-    else if(input.value == 11){
-        Background_Image.style.backgroundImage = "url('Images/chapter11.jpg')";
-    }
-    else if(input.value == 12){
-        Background_Image.style.backgroundImage = "url('Images/chapter12.jpg')";
-    }
-    else if(input.value == 13){
-        Background_Image.style.backgroundImage = "url('Images/chapter13.jpg')";
-    }
-    else if(input.value == 14){
-        Background_Image.style.backgroundImage = "url('Images/chapter14.jpg')";
-    }
-    else if(input.value == 15){
-        Background_Image.style.backgroundImage = "url('Images/chapter15.jpg')";
-    }
-    else if(input.value == 16){
-        Background_Image.style.backgroundImage = "url('Images/chapter16.jpg')";
-    }
-    else if(input.value == 17){
-        Background_Image.style.backgroundImage = "url('Images/chapter17.jpg')";
-    }
-    else if(input.value == 18){
-        Background_Image.style.backgroundImage = "url('Images/chapter18.jpg')";
-    }
+    console.log(input.value);
+    const Imgs = ["url('Images/chapter1.jpg')","url('Images/chapter2.jpg')","url('Images/chapter3.jpg')","url('Images/chapter4.jpg')","url('Images/chapter5.jpg')","url('Images/chapter6.jpg')","url('Images/chapter7.jpg')","url('Images/chapter8.jpg')","url('Images/chapter9.jpg')","url('Images/chapter10.jpg')","url('Images/chapter11.jpg')","url('Images/chapter12.jpg')","url('Images/chapter13.jpg')","url('Images/chapter14.jpg')","url('Images/chapter15.jpg')","url('Images/chapter16.jpg')","url('Images/chapter17.jpg')","url('Images/chapter18.jpg')"];
+
+    Background_Image.style.backgroundImage = Imgs[Number];
+
+     
+    // if(input.value == 1){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter1.jpg')";
+    // }
+    // else if(input.value == 2){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter2.jpg')";
+    // }
+    // else if(input.value == 3){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter3.jpg')";
+    // }
+    // else if(input.value == 4){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter4.jpg')";
+    // }
+    // else if(input.value == 5){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter5.jpg')";
+    // }
+    // else if(input.value == 6){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter6.jpg')";
+    // }
+    // else if(input.value == 7){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter7.jpg')";
+    // }
+    // else if(input.value == 8){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter8.jpg')";
+    // }
+    // else if(input.value == 9){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter9.jpg')";
+    // }
+    // else if(input.value == 10){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter10.jpg')";
+    // }
+    // else if(input.value == 11){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter11.jpg')";
+    // }
+    // else if(input.value == 12){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter12.jpg')";
+    // }
+    // else if(input.value == 13){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter13.jpg')";
+    // }
+    // else if(input.value == 14){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter14.jpg')";
+    // }
+    // else if(input.value == 15){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter15.jpg')";
+    // }
+    // else if(input.value == 16){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter16.jpg')";
+    // }
+    // else if(input.value == 17){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter17.jpg')";
+    // }
+    // else if(input.value == 18){
+    //     Background_Image.style.backgroundImage = "url('Images/chapter18.jpg')";
+    // }
 }
