@@ -1,0 +1,75 @@
+body{
+    padding:0;
+    margin:0;
+    background-image: linear-gradient(to bottom, #e292bf, #d695cb, #c799d6, #b69dde, #a2a2e4, #92aced, #80b5f3, #6ebef6, #5fcefb, #59ddfb, #63ebf7, #79f8f0);
+    
+}
+.main_container{
+    height:120vh;
+    width:80vw;
+    margin:auto;
+    text-align:center;
+    border-radius:15px;
+}
+.search_box{
+    width:40vw;
+    margin:auto;
+    display:flex;
+    
+}
+.search_box input{
+    background-color: rgba(255,255,255,0.6);
+    opacity:0.6;
+    width:25vw;
+    margin: 8px auto;
+    outline:none;
+    border:none;
+    text-align:center;
+    font-size:28px;
+    border-radius: 15px;
+}
+input:placeholder{
+    color:grey;
+    opacity:0.5;
+}
+.chapter_details{
+    height:60vh;
+    margin:10px 280px;
+    line-height: 2.5rem;
+    background-image:url('Images/chapter3.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.chapter_number{
+    font-weight:bolder;
+    font-size:36px;
+}
+
+.chapter_name{
+    font-size:1.8rem;
+    font-weight:bolder;
+    text-shadow: 8px 6px 4px grey;
+}
+.chapter_name_hi{
+    font-size:1.5rem;
+    font-weight:bolder;
+    text-shadow: 8px 6px 4px grey;
+}
+.summary{
+    display:flex;
+    line-height:1.8rem;
+    /* font-size:1.1rem; */
+    padding:10px;
+    font-weight:bold;
+
+}
+.chapter_summary{
+    flex:1;
+    font-size:1.2rem;
+    
+}
+.chapter_summary_hi{
+    flex:1;
+    font-size:1rem;
+    
+}
